@@ -1,0 +1,13 @@
+SENSOR DE FOGO
+
+Detecta a presença de fogo ou fontes de calor por meio de um sensor IR que detecta luz com comprimento de onda entre 760 e 1100nm.
+Possui duas saídas, sendo uma analógica (A0), e uma digital (D0), led indicador de alimentação e outro que acende quando a saída digital está ativada. A saída analógica pode ser utilizada para que possamos ler, no microcontrolador, o nível de calor detectado pelo sensor IR.
+A saída digital é ativada quando o nível de calor atinge um determinado valor, ajustado pelo potenciômetro presente no módulo.
+
+
+SENSOR DE VIBRAÇÃO
+
+Utilizavel para medir a vibração e/ou movimentação de algum objeto.
+Internamente possui uma mola que detecta se o sensor foi movimentado ou não. Esse sensor transfere para os pinos D0 e A0 as informações referentes à vibração. Pela sua construção, pode ser usado em qualquer ângulo, e também detecta movimentos em qualquer direção.
+O pino D0 (digital), indica se o sensor foi movimentado (sinal LOW - 0), ou não (sinal HIGH - 1). Já o pino A0 (analógico) tem a mesma função, porém emitindo sinais intermediários, ou seja, com ele podemos medir o nível de intensidade da vibração. 
+A alimentação do módulo é de 3.3 à 5v e ele possui dois leds na sua estrutura : o led verde indica que o módulo está ligado, e o led vermelho indica presença de vibração e o envio de dados pelos pinos D0 e A0.
